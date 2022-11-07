@@ -33,7 +33,7 @@ function Nav() {
         <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/170px-Netflix_2015_logo.svg.png' 
             alt='Netflix logo'
             className='nav__logo'
-            onClick={() => (window.location.href = "/netflix_app/")} />
+            onClick={() => (window.location.href = "/netflix_app_2022/")} />
         <input type="search" value={searchValue} onChange={onChange} 
           placeholder="영화를 검색해주세요" className="nav__input" />
         <img 
