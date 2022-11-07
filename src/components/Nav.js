@@ -33,7 +33,8 @@ function Nav() {
         <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/170px-Netflix_2015_logo.svg.png' 
             alt='Netflix logo'
             className='nav__logo'
-            onClick={() => (window.location.href = "/netflix_app_2022/")} />
+            onClick={() => (window.location.href="/netflix_app_2022/")} />
+            {/* onClick={() => (window.location.href="/netflix_app_2022/(깃허브리파지토리네임)" 로고 클릭시 새로고침- 홈페이지로 돌아가는 법 */}
         <input type="search" value={searchValue} onChange={onChange} 
           placeholder="영화를 검색해주세요" className="nav__input" />
         <img 
