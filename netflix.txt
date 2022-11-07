@@ -1,0 +1,7 @@
+netflix  앱
+1.넷플릭스앱 터미널에서 npx create-react-app ./ 설치
+2.https://www.themoviedb.org/로그인 후 api키 발급 아디w*****
+3.터미널에서 npm install axios --save 설치
+4.src에 app.js/index.js 제외한 모두 삭제
+5.src폴더안에 api폴더 생성후 폴더안에 axios.js, requstst.js 폴더 생성
+5.src 폴더 밖에 env 폴더 생성후 REACT_APP_MOVIE_DB_API_KEY=api키입력
